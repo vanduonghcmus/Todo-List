@@ -1,0 +1,44 @@
+.Header {
+  background-color: #092a35;
+  display: flex;
+  font-family: "McLaren", cursive;
+  font-weight: bold;
+  height: 10%;
+  padding: 10px;
+}
+
+.Header h1 {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 0;
+  float: left;
+}
+
+.btnLOpenAuth {
+  position: fixed;
+  cursor: pointer;
+  right: 2%;
+  border: none;
+}
+
+.btnLOpenAuth .Login {
+  border: none;
+  background-color: #28df99;
+  font-weight: bold;
+  color: #fff;
+  margin: 4px;
+  width: 124px;
+  height: 40px;
+}
+
+.Login:hover {
+  background-color: #28df99;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.Login:focus {
+  background-color: #28df99;
+  color: #fff;
+}

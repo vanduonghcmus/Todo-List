@@ -1,0 +1,51 @@
+.container {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AuthForm {
+  font-family: "Montserrat", sans-serif;
+  padding: 25px 40px;
+  border-radius: 3px;
+  width: 400px;
+  left: 37%;
+  top: 24%;
+  box-shadow: 0 0px 10px rgb(138, 137, 138);
+  background-color: #fff;
+  text-align: center;
+}
+
+.container .AuthForm p {
+  font-weight: 600;
+  color: #706c61;
+  margin: 10px;
+}
+
+.container .AuthForm h4 {
+  color: blue;
+  cursor: pointer;
+}
+
+.container .AuthForm h4:hover {
+  text-decoration: underline;
+}
+
+.container .Title h1 {
+  font-family: "McLaren", cursive;
+  font-weight: bold;
+  text-align: center;
+  color: #29a19c;
+  font-size: 3rem;
+}
+
+.btnSwitch {
+  border: none;
+  background-color: transparent;
+}

@@ -1,0 +1,19 @@
+.Task {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px #ccc;
+  width: 100%;
+  padding: 4px;
+  margin: 5px;
+  float: left;
+  color: #1b262c;
+  text-align: left;
+  cursor: pointer;
+}
+
+.Task p {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  display: inline;
+}

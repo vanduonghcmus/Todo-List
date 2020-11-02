@@ -1,0 +1,45 @@
+.TasksList {
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.Title {
+  font-family: "McLaren", cursive;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.List {
+  background-color: #ebecf0;
+}
+
+.Todo {
+  color: lightseagreen;
+}
+.Working {
+  color: #ffa931;
+}
+.Done {
+  color: limegreen;
+}
+
+.btnOpenForm {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  right: 6%;
+  bottom: 10%;
+  background-color: #706c61;
+  color: #fff;
+  border: none;
+}
+.btnOpenForm:hover {
+  background-color: #706c61;
+  opacity: 0.8;
+  color: #fff;
+}
+.btnOpenForm:focus {
+  background-color: #706c61;
+  color: #fff;
+}
